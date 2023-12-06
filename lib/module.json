@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.spalla.sdk",
+    "module": "spalla-android-sdk",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spalla-android-sdk-1.0.0.aar",
+          "url": "spalla-android-sdk-1.0.0.aar",
+          "size": 159443,
+          "sha512": "f453a72bb5360201f4edee1815da77209376ecc32cd3b2c0fc8a044f151a7a272223659a14f32a60434b219c0d31ccdbb14f099570c426dabf6299b7b5703321",
+          "sha256": "f0af9e62c2d5c45623a23d13b5bc3996139882ad98eaf0487ccc3f1f3786832b",
+          "sha1": "93896e17901dbea732f6f1f6caae5a351cffcc0e",
+          "md5": "d53f555a05a65f2d69fdb5daa18d275f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.theoplayer.theoplayer-sdk-android",
+          "module": "basic-minapi21",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-cast-framework",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.71828"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spalla-android-sdk-1.0.0.aar",
+          "url": "spalla-android-sdk-1.0.0.aar",
+          "size": 159443,
+          "sha512": "f453a72bb5360201f4edee1815da77209376ecc32cd3b2c0fc8a044f151a7a272223659a14f32a60434b219c0d31ccdbb14f099570c426dabf6299b7b5703321",
+          "sha256": "f0af9e62c2d5c45623a23d13b5bc3996139882ad98eaf0487ccc3f1f3786832b",
+          "sha1": "93896e17901dbea732f6f1f6caae5a351cffcc0e",
+          "md5": "d53f555a05a65f2d69fdb5daa18d275f"
+        }
+      ]
+    }
+  ]
+}
