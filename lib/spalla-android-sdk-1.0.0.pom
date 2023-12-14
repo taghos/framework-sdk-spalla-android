@@ -7,10 +7,33 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.spalla.sdk</groupId>
+  <groupId>stream.spalla</groupId>
   <artifactId>spalla-android-sdk</artifactId>
   <version>1.0.0</version>
   <packaging>aar</packaging>
+  <name>spalla-android-sdk</name>
+  <description>Spalla SDK with Player and Analytics</description>
+  <url>https://spalla.stream</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Rogerio Shimizu</name>
+      <email>roja@bunker79.com</email>
+      <organization>BUNKER79</organization>
+      <organizationUrl>http://www.bunker79.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/taghos/framework-sdk-spalla-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/taghos/framework-sdk-spalla-android.git</developerConnection>
+    <url>http://github.com/taghos/framework-sdk-spalla-android</url>
+  </scm>
+  
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>

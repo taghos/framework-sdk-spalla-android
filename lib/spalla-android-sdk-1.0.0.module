@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.spalla.sdk",
+    "group": "stream.spalla",
     "module": "spalla-android-sdk",
     "version": "1.0.0",
     "attributes": {

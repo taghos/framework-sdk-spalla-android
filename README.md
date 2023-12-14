@@ -10,26 +10,19 @@ The SDK offers the following features:
 ## Getting started on Spalla SDK Android
 
 The current version of the Spalla SDK for Android is 1.0.0, which requires the Android 23 API.
-With the SDK repository downloaded, extract the contents of the .zip in a folder and modify the build.gradle files to fetch the SDK.
 
-In your top-level (project) build.gradle or settings.gradle file, add the following repositories:
+Just add to your `app/build.gradle`:
+
+```
+   implementation("stream.spalla:spalla-android-sdk:1.0.0")
+```
+
+Make sure that `mavenCentral` is added as a repository
+
 ```
 repositories {
    google()
    mavenCentral()
-   maven { url 'path_to_repository' }
-   maven { url 'https://jitpack.io' }
-}
-```
-
-> Note: the "path_to_repository" references the path to the contents extracted from the .zip.
-
-
-Next, edit the build.gradle on the module-level (app/build.gradle) adding the dependency:
-
-```
-dependencies {
-   implementation 'com.spalla.sdk:spalla-android-sdk:x.x.x'
 }
 ```
 
