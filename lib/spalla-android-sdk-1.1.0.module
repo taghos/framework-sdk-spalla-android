@@ -3,7 +3,7 @@
   "component": {
     "group": "stream.spalla",
     "module": "spalla-android-sdk",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.0.0.aar",
-          "url": "spalla-android-sdk-1.0.0.aar",
-          "size": 159443,
-          "sha512": "f453a72bb5360201f4edee1815da77209376ecc32cd3b2c0fc8a044f151a7a272223659a14f32a60434b219c0d31ccdbb14f099570c426dabf6299b7b5703321",
-          "sha256": "f0af9e62c2d5c45623a23d13b5bc3996139882ad98eaf0487ccc3f1f3786832b",
-          "sha1": "93896e17901dbea732f6f1f6caae5a351cffcc0e",
-          "md5": "d53f555a05a65f2d69fdb5daa18d275f"
+          "name": "spalla-android-sdk-1.1.0.aar",
+          "url": "spalla-android-sdk-1.1.0.aar",
+          "size": 159894,
+          "sha512": "df52c4858c99a90b96a1d0ad233b8312f94148273ff4c039ac49a8ac4260e40ffa64fa40698cb73e06fd90ef5157cc2707014dcd3c21fd8a27d3fef00e8fbd83",
+          "sha256": "612dee6c11f54d64963a87648f7e1e9fc181ee435aada2ba141d2ffefa1dce66",
+          "sha1": "8a6c71a76af36302cd903ccc37f484eae4070e5c",
+          "md5": "5758d192badeb768f8cc8e74062049db"
         }
       ]
     },
@@ -139,13 +139,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.0.0.aar",
-          "url": "spalla-android-sdk-1.0.0.aar",
-          "size": 159443,
-          "sha512": "f453a72bb5360201f4edee1815da77209376ecc32cd3b2c0fc8a044f151a7a272223659a14f32a60434b219c0d31ccdbb14f099570c426dabf6299b7b5703321",
-          "sha256": "f0af9e62c2d5c45623a23d13b5bc3996139882ad98eaf0487ccc3f1f3786832b",
-          "sha1": "93896e17901dbea732f6f1f6caae5a351cffcc0e",
-          "md5": "d53f555a05a65f2d69fdb5daa18d275f"
+          "name": "spalla-android-sdk-1.1.0.aar",
+          "url": "spalla-android-sdk-1.1.0.aar",
+          "size": 159894,
+          "sha512": "df52c4858c99a90b96a1d0ad233b8312f94148273ff4c039ac49a8ac4260e40ffa64fa40698cb73e06fd90ef5157cc2707014dcd3c21fd8a27d3fef00e8fbd83",
+          "sha256": "612dee6c11f54d64963a87648f7e1e9fc181ee435aada2ba141d2ffefa1dce66",
+          "sha1": "8a6c71a76af36302cd903ccc37f484eae4070e5c",
+          "md5": "5758d192badeb768f8cc8e74062049db"
         }
       ]
     }

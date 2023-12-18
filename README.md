@@ -14,7 +14,7 @@ The current version of the Spalla SDK for Android is 1.0.0, which requires the A
 Just add to your `app/build.gradle`:
 
 ```
-   implementation("stream.spalla:spalla-android-sdk:1.0.0")
+   implementation("stream.spalla:spalla-android-sdk:1.1.0")
 ```
 
 Make sure that `mavenCentral` is added as a repository
@@ -40,10 +40,7 @@ class AppApplication : Application() {
    override fun onCreate() {
        super.onCreate()
 
-       val token = "XXXXX..."
-       val license = "YYYYY..."
-
-       SpallaSDK.initialize(this, token, license)
+       SpallaSDK.initialize(this)
    }
 }
 ```
@@ -269,9 +266,7 @@ The entry point of Spalla SDK.
 ##### Method Summary
 | Return Type | Method | Description |
 | --- | --- | --- |
-| void | initialize(context: Context, token: String, license: String) | Initializes the SDK. |
-| String | getToken() | Returns the Spalla token. |
-| String | getLicence() | Returns the Spalla license. |
+| void | initialize(context: Context) | Initializes the SDK. |
 | void | setSessionId(sessionId: String?) | Adds a session identifier for analytics. |
 | String? | getSessionId() | Returns the session identifier. |
 
