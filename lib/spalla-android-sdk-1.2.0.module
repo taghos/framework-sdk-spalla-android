@@ -3,7 +3,7 @@
   "component": {
     "group": "stream.spalla",
     "module": "spalla-android-sdk",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.1.0.aar",
-          "url": "spalla-android-sdk-1.1.0.aar",
-          "size": 159894,
-          "sha512": "df52c4858c99a90b96a1d0ad233b8312f94148273ff4c039ac49a8ac4260e40ffa64fa40698cb73e06fd90ef5157cc2707014dcd3c21fd8a27d3fef00e8fbd83",
-          "sha256": "612dee6c11f54d64963a87648f7e1e9fc181ee435aada2ba141d2ffefa1dce66",
-          "sha1": "8a6c71a76af36302cd903ccc37f484eae4070e5c",
-          "md5": "5758d192badeb768f8cc8e74062049db"
+          "name": "spalla-android-sdk-1.2.0.aar",
+          "url": "spalla-android-sdk-1.2.0.aar",
+          "size": 159555,
+          "sha512": "98c546a73e4611d46f8b0ccb6a6c8c4cf193afe5ca3d901e617d70bab964aab3842bf7aad7b804389b6b8cfcf64ad3c6e3de909781bddc06dd5076763bd5882c",
+          "sha256": "556b883ade442e4f0b64f39d613f9489102fbad75a2b860ce907e6309c73b757",
+          "sha1": "5d31c846c50fe41f36bd9ea8e002cfa42aeda047",
+          "md5": "c595861678ee4e378b4792484a761178"
         }
       ]
     },
@@ -105,7 +105,7 @@
           "group": "com.theoplayer.theoplayer-sdk-android",
           "module": "basic-minapi21",
           "version": {
-            "requires": "4.11.0"
+            "requires": "4.12.2"
           }
         },
         {
@@ -139,13 +139,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.1.0.aar",
-          "url": "spalla-android-sdk-1.1.0.aar",
-          "size": 159894,
-          "sha512": "df52c4858c99a90b96a1d0ad233b8312f94148273ff4c039ac49a8ac4260e40ffa64fa40698cb73e06fd90ef5157cc2707014dcd3c21fd8a27d3fef00e8fbd83",
-          "sha256": "612dee6c11f54d64963a87648f7e1e9fc181ee435aada2ba141d2ffefa1dce66",
-          "sha1": "8a6c71a76af36302cd903ccc37f484eae4070e5c",
-          "md5": "5758d192badeb768f8cc8e74062049db"
+          "name": "spalla-android-sdk-1.2.0.aar",
+          "url": "spalla-android-sdk-1.2.0.aar",
+          "size": 159555,
+          "sha512": "98c546a73e4611d46f8b0ccb6a6c8c4cf193afe5ca3d901e617d70bab964aab3842bf7aad7b804389b6b8cfcf64ad3c6e3de909781bddc06dd5076763bd5882c",
+          "sha256": "556b883ade442e4f0b64f39d613f9489102fbad75a2b860ce907e6309c73b757",
+          "sha1": "5d31c846c50fe41f36bd9ea8e002cfa42aeda047",
+          "md5": "c595861678ee4e378b4792484a761178"
         }
       ]
     }

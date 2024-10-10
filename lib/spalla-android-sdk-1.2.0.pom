@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>stream.spalla</groupId>
   <artifactId>spalla-android-sdk</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <packaging>aar</packaging>
   <name>spalla-android-sdk</name>
   <description>Spalla SDK with Player and Analytics</description>
@@ -73,7 +73,7 @@
     <dependency>
       <groupId>com.theoplayer.theoplayer-sdk-android</groupId>
       <artifactId>basic-minapi21</artifactId>
-      <version>4.11.0</version>
+      <version>4.12.2</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
