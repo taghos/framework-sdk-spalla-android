@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "stream.spalla",
+    "module": "spalla-android-sdk",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spalla-android-sdk-1.3.0.aar",
+          "url": "spalla-android-sdk-1.3.0.aar",
+          "size": 142900,
+          "sha512": "abb17d6c96f621b304e9dd1a7c05eb3dce6f14c82666de2b226c6ee9440bb9e37f525812d24d13ec6e56148d3c20d3ae1d9b1e29104df538d1e86ab5c1a60016",
+          "sha256": "b3917c751afb337060a6e43659cf160c8177bafaf85cb6d4826cee79e5522f1c",
+          "sha1": "beba9b2387b7e0cb275e4ce16e588b555c67ca61",
+          "md5": "2d6946cd5968362226629aa239adf21d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.theoplayer.theoplayer-sdk-android",
+          "module": "basic-minapi21",
+          "version": {
+            "requires": "4.12.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-cast-framework",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.71828"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spalla-android-sdk-1.3.0.aar",
+          "url": "spalla-android-sdk-1.3.0.aar",
+          "size": 142900,
+          "sha512": "abb17d6c96f621b304e9dd1a7c05eb3dce6f14c82666de2b226c6ee9440bb9e37f525812d24d13ec6e56148d3c20d3ae1d9b1e29104df538d1e86ab5c1a60016",
+          "sha256": "b3917c751afb337060a6e43659cf160c8177bafaf85cb6d4826cee79e5522f1c",
+          "sha1": "beba9b2387b7e0cb275e4ce16e588b555c67ca61",
+          "md5": "2d6946cd5968362226629aa239adf21d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spalla-android-sdk-1.3.0-sources.jar",
+          "url": "spalla-android-sdk-1.3.0-sources.jar",
+          "size": 44543,
+          "sha512": "e131c8c6f3281e07257bf505cd09bee79bd6dd97419f63c3fb4e652693e1b7e6eb2580bc7faad0071b90c2a6d7a602f2534ce04dd4d0f33b79cd2294f9663218",
+          "sha256": "b91ce2e6c56fd387edc423d5b966566ca798eb52f312849412af6428d98e68df",
+          "sha1": "1921aea5721756116ba41b42830eaf99352d990b",
+          "md5": "3057d036d75a8ac322922d3652d80891"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spalla-android-sdk-1.3.0-javadoc.jar",
+          "url": "spalla-android-sdk-1.3.0-javadoc.jar",
+          "size": 455328,
+          "sha512": "543223cebd16e1a0bd4f09b4c244eb3c81f27fecd8373fbdc5e193780d8c4dcdf7830336f6044a266e2b9ca7874fa07ad87bc72bfeb40cbba9d2fe3067996a90",
+          "sha256": "ae59f979c40a6d8c41bcc3174dca1b06f483abdd5565eb3e4e6c4367bfab783c",
+          "sha1": "f5a242e7705ca94adf7b2062798bc49c7deb48db",
+          "md5": "e58c44cc8f36e83b70ef4a4bc95b587f"
+        }
+      ]
+    }
+  ]
+}
