@@ -99,19 +99,19 @@
     <dependency>
       <groupId>com.theoplayer.theoplayer-sdk-android</groupId>
       <artifactId>core</artifactId>
-      <version>8.+</version>
+      <version>8.10.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.theoplayer.theoplayer-sdk-android</groupId>
       <artifactId>integration-cast</artifactId>
-      <version>8.+</version>
+      <version>8.10.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.theoplayer.android-ui</groupId>
       <artifactId>android-ui</artifactId>
-      <version>1.+</version>
+      <version>1.9.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

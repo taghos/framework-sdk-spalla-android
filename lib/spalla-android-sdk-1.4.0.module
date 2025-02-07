@@ -114,21 +114,21 @@
           "group": "com.theoplayer.theoplayer-sdk-android",
           "module": "core",
           "version": {
-            "requires": "8.+"
+            "requires": "8.10.0"
           }
         },
         {
           "group": "com.theoplayer.theoplayer-sdk-android",
           "module": "integration-cast",
           "version": {
-            "requires": "8.+"
+            "requires": "8.10.0"
           }
         },
         {
           "group": "com.theoplayer.android-ui",
           "module": "android-ui",
           "version": {
-            "requires": "1.+"
+            "requires": "1.9.4"
           }
         },
         {
