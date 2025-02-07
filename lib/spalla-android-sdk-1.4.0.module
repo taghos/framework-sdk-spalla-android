@@ -3,7 +3,7 @@
   "component": {
     "group": "stream.spalla",
     "module": "spalla-android-sdk",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.3.0.aar",
-          "url": "spalla-android-sdk-1.3.0.aar",
-          "size": 142900,
-          "sha512": "abb17d6c96f621b304e9dd1a7c05eb3dce6f14c82666de2b226c6ee9440bb9e37f525812d24d13ec6e56148d3c20d3ae1d9b1e29104df538d1e86ab5c1a60016",
-          "sha256": "b3917c751afb337060a6e43659cf160c8177bafaf85cb6d4826cee79e5522f1c",
-          "sha1": "beba9b2387b7e0cb275e4ce16e588b555c67ca61",
-          "md5": "2d6946cd5968362226629aa239adf21d"
+          "name": "spalla-android-sdk-1.4.0.aar",
+          "url": "spalla-android-sdk-1.4.0.aar",
+          "size": 153855,
+          "sha512": "16ffa41578f9ec1101e2cd4b41cf68769bee4176b3e00f977f0b18707afe70429799d7c0755941db1fc317974ee2d1c9f22a3e96fa732857c2a87271adaade84",
+          "sha256": "875ef1961c6d8a207f064b373c55252178423249e719b6bee363275afaa73e5c",
+          "sha1": "c91563c2f384fa5f82a3a0c5eec279082b2a5c95",
+          "md5": "3a4b4baa94b9f75cc5f3ca3eb8b401e9"
         }
       ]
     },
@@ -88,10 +88,47 @@
           }
         },
         {
-          "group": "com.theoplayer.theoplayer-sdk-android",
-          "module": "basic-minapi21",
+          "group": "androidx.compose",
+          "module": "compose-bom",
           "version": {
-            "requires": "4.12.2"
+            "requires": "2024.10.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "com.theoplayer.theoplayer-sdk-android",
+          "module": "core",
+          "version": {
+            "requires": "8.+"
+          }
+        },
+        {
+          "group": "com.theoplayer.theoplayer-sdk-android",
+          "module": "integration-cast",
+          "version": {
+            "requires": "8.+"
+          }
+        },
+        {
+          "group": "com.theoplayer.android-ui",
+          "module": "android-ui",
+          "version": {
+            "requires": "1.+"
           }
         },
         {
@@ -113,13 +150,6 @@
           "module": "converter-gson",
           "version": {
             "requires": "2.11.0"
-          }
-        },
-        {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp",
-          "version": {
-            "requires": "4.12.0"
           }
         },
         {
@@ -146,13 +176,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.3.0.aar",
-          "url": "spalla-android-sdk-1.3.0.aar",
-          "size": 142900,
-          "sha512": "abb17d6c96f621b304e9dd1a7c05eb3dce6f14c82666de2b226c6ee9440bb9e37f525812d24d13ec6e56148d3c20d3ae1d9b1e29104df538d1e86ab5c1a60016",
-          "sha256": "b3917c751afb337060a6e43659cf160c8177bafaf85cb6d4826cee79e5522f1c",
-          "sha1": "beba9b2387b7e0cb275e4ce16e588b555c67ca61",
-          "md5": "2d6946cd5968362226629aa239adf21d"
+          "name": "spalla-android-sdk-1.4.0.aar",
+          "url": "spalla-android-sdk-1.4.0.aar",
+          "size": 153855,
+          "sha512": "16ffa41578f9ec1101e2cd4b41cf68769bee4176b3e00f977f0b18707afe70429799d7c0755941db1fc317974ee2d1c9f22a3e96fa732857c2a87271adaade84",
+          "sha256": "875ef1961c6d8a207f064b373c55252178423249e719b6bee363275afaa73e5c",
+          "sha1": "c91563c2f384fa5f82a3a0c5eec279082b2a5c95",
+          "md5": "3a4b4baa94b9f75cc5f3ca3eb8b401e9"
         }
       ]
     },
@@ -166,13 +196,13 @@
       },
       "files": [
         {
-          "name": "spalla-android-sdk-1.3.0-sources.jar",
-          "url": "spalla-android-sdk-1.3.0-sources.jar",
-          "size": 44543,
-          "sha512": "e131c8c6f3281e07257bf505cd09bee79bd6dd97419f63c3fb4e652693e1b7e6eb2580bc7faad0071b90c2a6d7a602f2534ce04dd4d0f33b79cd2294f9663218",
-          "sha256": "b91ce2e6c56fd387edc423d5b966566ca798eb52f312849412af6428d98e68df",
-          "sha1": "1921aea5721756116ba41b42830eaf99352d990b",
-          "md5": "3057d036d75a8ac322922d3652d80891"
+          "name": "spalla-android-sdk-1.4.0-sources.jar",
+          "url": "spalla-android-sdk-1.4.0-sources.jar",
+          "size": 50574,
+          "sha512": "2afc2711fa414dc857c496ee2edb1d0145dbbf9e02ac84fcf0e120519c1448d8e5767c05e4c1d1ad3f02ed6b572a90fb378f988a367bdfededa0064b87330ae3",
+          "sha256": "938c5395e6e2f26ee6da7be09898b443b15dd5c8db84758391573c516611b4d8",
+          "sha1": "29b74761392405bec6e73a072f7dc216c24bf4c2",
+          "md5": "ec7058e04085226422cb160ed74d4391"
         }
       ]
     },
@@ -186,13 +216,13 @@
       },
       "files": [
         {
-          "name": "spalla-android-sdk-1.3.0-javadoc.jar",
-          "url": "spalla-android-sdk-1.3.0-javadoc.jar",
-          "size": 455328,
-          "sha512": "543223cebd16e1a0bd4f09b4c244eb3c81f27fecd8373fbdc5e193780d8c4dcdf7830336f6044a266e2b9ca7874fa07ad87bc72bfeb40cbba9d2fe3067996a90",
-          "sha256": "ae59f979c40a6d8c41bcc3174dca1b06f483abdd5565eb3e4e6c4367bfab783c",
-          "sha1": "f5a242e7705ca94adf7b2062798bc49c7deb48db",
-          "md5": "e58c44cc8f36e83b70ef4a4bc95b587f"
+          "name": "spalla-android-sdk-1.4.0-javadoc.jar",
+          "url": "spalla-android-sdk-1.4.0-javadoc.jar",
+          "size": 461222,
+          "sha512": "a97ce2c8860059f4e8fa3c1c7624875fd2bf98114b614824c4de8939df3aa23d1a42e64f6ecb8f9358539cc7fc4edaf921766d264b2137523ccbe6c537cc1389",
+          "sha256": "ff1dfd0b5fabeafc000541c44c9ecce5332d22baef258947388f6826a7fe8c83",
+          "sha1": "d27e097525bdafcce1bc068d2f57f75f20ea63bc",
+          "md5": "b9bbb6c0e70bbcf03be7a68750bcf472"
         }
       ]
     }
