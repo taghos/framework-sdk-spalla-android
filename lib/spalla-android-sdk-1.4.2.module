@@ -3,7 +3,7 @@
   "component": {
     "group": "stream.spalla",
     "module": "spalla-android-sdk",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.4.0.aar",
-          "url": "spalla-android-sdk-1.4.0.aar",
-          "size": 153855,
-          "sha512": "16ffa41578f9ec1101e2cd4b41cf68769bee4176b3e00f977f0b18707afe70429799d7c0755941db1fc317974ee2d1c9f22a3e96fa732857c2a87271adaade84",
-          "sha256": "875ef1961c6d8a207f064b373c55252178423249e719b6bee363275afaa73e5c",
-          "sha1": "c91563c2f384fa5f82a3a0c5eec279082b2a5c95",
-          "md5": "3a4b4baa94b9f75cc5f3ca3eb8b401e9"
+          "name": "spalla-android-sdk-1.4.2.aar",
+          "url": "spalla-android-sdk-1.4.2.aar",
+          "size": 225951,
+          "sha512": "9b983e2bb1f183eeb089c30020faecdf2a6f871186a8696aeb4b004b71d55538af50b068881f450644b85c62c98d218b304d7aa2e8d9bfb16dc90345dd71a889",
+          "sha256": "7af192f7f5430aeadf0e4c5f6595303c39cca290fcc3dc421ce0a9220a4d5716",
+          "sha1": "33cbb762a04c2ba32187d7c9f551fb3a35a713ff",
+          "md5": "c6acfea48ba62d8ef7731ce2790c14c7"
         }
       ]
     },
@@ -176,13 +176,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.4.0.aar",
-          "url": "spalla-android-sdk-1.4.0.aar",
-          "size": 153855,
-          "sha512": "16ffa41578f9ec1101e2cd4b41cf68769bee4176b3e00f977f0b18707afe70429799d7c0755941db1fc317974ee2d1c9f22a3e96fa732857c2a87271adaade84",
-          "sha256": "875ef1961c6d8a207f064b373c55252178423249e719b6bee363275afaa73e5c",
-          "sha1": "c91563c2f384fa5f82a3a0c5eec279082b2a5c95",
-          "md5": "3a4b4baa94b9f75cc5f3ca3eb8b401e9"
+          "name": "spalla-android-sdk-1.4.2.aar",
+          "url": "spalla-android-sdk-1.4.2.aar",
+          "size": 225951,
+          "sha512": "9b983e2bb1f183eeb089c30020faecdf2a6f871186a8696aeb4b004b71d55538af50b068881f450644b85c62c98d218b304d7aa2e8d9bfb16dc90345dd71a889",
+          "sha256": "7af192f7f5430aeadf0e4c5f6595303c39cca290fcc3dc421ce0a9220a4d5716",
+          "sha1": "33cbb762a04c2ba32187d7c9f551fb3a35a713ff",
+          "md5": "c6acfea48ba62d8ef7731ce2790c14c7"
         }
       ]
     },
@@ -196,8 +196,8 @@
       },
       "files": [
         {
-          "name": "spalla-android-sdk-1.4.0-sources.jar",
-          "url": "spalla-android-sdk-1.4.0-sources.jar",
+          "name": "spalla-android-sdk-1.4.2-sources.jar",
+          "url": "spalla-android-sdk-1.4.2-sources.jar",
           "size": 50574,
           "sha512": "2afc2711fa414dc857c496ee2edb1d0145dbbf9e02ac84fcf0e120519c1448d8e5767c05e4c1d1ad3f02ed6b572a90fb378f988a367bdfededa0064b87330ae3",
           "sha256": "938c5395e6e2f26ee6da7be09898b443b15dd5c8db84758391573c516611b4d8",
@@ -216,8 +216,8 @@
       },
       "files": [
         {
-          "name": "spalla-android-sdk-1.4.0-javadoc.jar",
-          "url": "spalla-android-sdk-1.4.0-javadoc.jar",
+          "name": "spalla-android-sdk-1.4.2-javadoc.jar",
+          "url": "spalla-android-sdk-1.4.2-javadoc.jar",
           "size": 461222,
           "sha512": "a97ce2c8860059f4e8fa3c1c7624875fd2bf98114b614824c4de8939df3aa23d1a42e64f6ecb8f9358539cc7fc4edaf921766d264b2137523ccbe6c537cc1389",
           "sha256": "ff1dfd0b5fabeafc000541c44c9ecce5332d22baef258947388f6826a7fe8c83",
