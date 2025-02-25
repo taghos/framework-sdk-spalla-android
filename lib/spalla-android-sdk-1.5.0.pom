@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>stream.spalla</groupId>
   <artifactId>spalla-android-sdk</artifactId>
-  <version>1.4.2</version>
+  <version>1.5.0</version>
   <packaging>aar</packaging>
   <name>spalla-android-sdk</name>
   <description>Spalla SDK with Player and Analytics</description>
@@ -106,12 +106,6 @@
       <groupId>com.theoplayer.theoplayer-sdk-android</groupId>
       <artifactId>integration-cast</artifactId>
       <version>8.10.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.theoplayer.android-ui</groupId>
-      <artifactId>android-ui</artifactId>
-      <version>1.9.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
