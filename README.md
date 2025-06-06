@@ -41,7 +41,7 @@ class AppApplication : Application() {
    override fun onCreate() {
        super.onCreate()
 
-       SpallaSDK.initialize(this)
+       SpallaSDK.initialize(this, token)
    }
 }
 ```
