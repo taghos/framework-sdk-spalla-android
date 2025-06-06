@@ -3,7 +3,7 @@
   "component": {
     "group": "stream.spalla",
     "module": "spalla-android-sdk",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.6.0.aar",
-          "url": "spalla-android-sdk-1.6.0.aar",
-          "size": 734229,
-          "sha512": "7eb83f96e7932b0540780a2b28227a417663aa32e74602e2deaf7dad13d42116818bde9a774a347c1b98f5821705d2b3459bede0f656c6a77c3c3b3c6084cfab",
-          "sha256": "082a80696aa912f172c5d243c024f06a5c3aacbe2a7fd3e3f124fbbc3ebf269c",
-          "sha1": "0488459fb7006d5de50eff82d3736138ad41ac63",
-          "md5": "0e587fb8f2d64de9a768e7da2a11dfe6"
+          "name": "spalla-android-sdk-1.7.0.aar",
+          "url": "spalla-android-sdk-1.7.0.aar",
+          "size": 733588,
+          "sha512": "c57d4755e4318dea09caccf63fd5bf3f8de183b90753582fae82693a41e7a650b8ca6fa76cdb58077057941dfd947164bd39ccd13d033b271c803758532864c4",
+          "sha256": "0e28a23bce13877ed6da1bf37ba3210913580a4dbe94eefea249f243f2e2b6ee",
+          "sha1": "366ff64b375614b25d6f2e38864fd94b95ec6e92",
+          "md5": "d30cedf8309a5794a660fc611c299a22"
         }
       ]
     },
@@ -169,13 +169,13 @@
       ],
       "files": [
         {
-          "name": "spalla-android-sdk-1.6.0.aar",
-          "url": "spalla-android-sdk-1.6.0.aar",
-          "size": 734229,
-          "sha512": "7eb83f96e7932b0540780a2b28227a417663aa32e74602e2deaf7dad13d42116818bde9a774a347c1b98f5821705d2b3459bede0f656c6a77c3c3b3c6084cfab",
-          "sha256": "082a80696aa912f172c5d243c024f06a5c3aacbe2a7fd3e3f124fbbc3ebf269c",
-          "sha1": "0488459fb7006d5de50eff82d3736138ad41ac63",
-          "md5": "0e587fb8f2d64de9a768e7da2a11dfe6"
+          "name": "spalla-android-sdk-1.7.0.aar",
+          "url": "spalla-android-sdk-1.7.0.aar",
+          "size": 733588,
+          "sha512": "c57d4755e4318dea09caccf63fd5bf3f8de183b90753582fae82693a41e7a650b8ca6fa76cdb58077057941dfd947164bd39ccd13d033b271c803758532864c4",
+          "sha256": "0e28a23bce13877ed6da1bf37ba3210913580a4dbe94eefea249f243f2e2b6ee",
+          "sha1": "366ff64b375614b25d6f2e38864fd94b95ec6e92",
+          "md5": "d30cedf8309a5794a660fc611c299a22"
         }
       ]
     },
@@ -189,13 +189,13 @@
       },
       "files": [
         {
-          "name": "spalla-android-sdk-1.6.0-sources.jar",
-          "url": "spalla-android-sdk-1.6.0-sources.jar",
-          "size": 95432,
-          "sha512": "f8927a625d816691f3e963c593129e90e50cf142fb47706ce2c37ead15d01f733dd45292a19032794c72b69758bae2e83363d939ec29f18806c42f1d74263fe1",
-          "sha256": "8b39588c788f82446415f6a60946f6dc6987ed64fd89daee36535ae5bfd71255",
-          "sha1": "0b339f72e8f2553033b5f60870e68fea3714b9c0",
-          "md5": "8415580b8bef7c9410e1d4d312bdaee7"
+          "name": "spalla-android-sdk-1.7.0-sources.jar",
+          "url": "spalla-android-sdk-1.7.0-sources.jar",
+          "size": 95541,
+          "sha512": "1435bb145eca912bf86ad0a5e25b5bd28006b5f833e9533f7b44dfe6aafb8984ad0c8502ec1d91d9bba140d483409b78648df20f6d1c7e9a67baef420cb602dc",
+          "sha256": "f80fefae3192f24b4123d72dc5d78032da722a2af53fb2ee4bb8ed22741bd8ee",
+          "sha1": "347c678333aec9d26c45bec14d558158cc24a9cd",
+          "md5": "ee1491d8f7d508a5c5a340897bfd8059"
         }
       ]
     },
@@ -209,13 +209,13 @@
       },
       "files": [
         {
-          "name": "spalla-android-sdk-1.6.0-javadoc.jar",
-          "url": "spalla-android-sdk-1.6.0-javadoc.jar",
-          "size": 496982,
-          "sha512": "263c6d6af667586589511edbdeaa38fdd1924ba2f21c4538ae034cb31496cbb1d18947e3146c0b2e7ed733f49adb49880248c6b1e6924703edf297e17d90554d",
-          "sha256": "dabf4cd895af5062c954b68d006625c1df8123f8c7dbed3f2f33da8246c9cea3",
-          "sha1": "89ef562944dcd4c9cd7ce90ce372612df808334a",
-          "md5": "4e3f99bfca8af3719bff629355745700"
+          "name": "spalla-android-sdk-1.7.0-javadoc.jar",
+          "url": "spalla-android-sdk-1.7.0-javadoc.jar",
+          "size": 496988,
+          "sha512": "0e4fe5c05a887a0c246e81831e2ece8009fc7d2965030353b5d8893d611fb90f4537cf075e161110985abba86378730154b09f9542388ee5a4d993d86d8ce3a5",
+          "sha256": "8897d62b9c45c6cb921644b3a9450efbab648cc5439fbe4397cc290853e20b9b",
+          "sha1": "e2ac761f1bbdff6f7a7ce5968031123bd5ad9c9f",
+          "md5": "7fd0f6056cb541414305997b7573e357"
         }
       ]
     }

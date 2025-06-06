@@ -9,20 +9,21 @@ The SDK offers the following features:
 
 ## Getting started on Spalla SDK Android
 
-The current version of the Spalla SDK for Android is 1.0.0, which requires the Android 23 API.
+The current version of the Spalla SDK for Android is 1.7.0, which requires the Android 23 API.
 
 Just add to your `app/build.gradle`:
 
 ```
-   implementation("stream.spalla:spalla-android-sdk:1.1.0")
+   implementation("stream.spalla:spalla-android-sdk:1.7.0")
 ```
 
-Make sure that `mavenCentral` is added as a repository
+Spalla depends on THEOPlayer for Playback, so please add the `https://maven.theoplayer.com/releases` repo to the list
 
 ```
 repositories {
    google()
    mavenCentral()
+   maven { url 'https://maven.theoplayer.com/releases' }
 }
 ```
 
@@ -34,7 +35,7 @@ Add the internet permission in the AndroidManifest.xml file.
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-Initialize SDK in Application.onCreate method with the context, Spalla token and THEO license.
+Initialize SDK in Application.onCreate method with the context, Spalla token.
 ```
 class AppApplication : Application() {
    override fun onCreate() {
@@ -61,9 +62,12 @@ Using the `layout.xml`:
 
 ```
 <com.spalla.sdk.android.core.player.view.SpallaPlayerView
-   android:id="@+id/spallaPlayerView"
-   android:layout_width="match_parent"
-   android:layout_height="300dp"/>
+            android:id="@+id/spallaPlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:playerThumbColor="@android:color/holo_red_light"
+            app:playerActiveTrackColor="@android:color/holo_red_light"
+            app:playerInactiveTrackColor="@android:color/white"/>
 ```
 
 Using the constructor API: see the documentation.
@@ -89,8 +93,18 @@ override fun onDestroy() {
 
 Call the SpallaPlayerView.load method to load and initialize the player:
 ```
-spallaPlayerView.load(spallaContentId, isLiveContent, autoPlay)
+spallaPlayerView.load(spallaContentId, isLiveContent, autoPlay, startTime, subtitle)
 ```
+
+where
+
+| Argument | Type | Description |
+| --- | --- | --- |
+| spallaContentId | String | the UUID of the Spalla content you would like to play |
+| isLiveContent | Bool | informs if the content is live or not - will be remove on the next major version, but is required for now |
+| autoPlay | Bool | if player should start playing automatically |
+| startTime | Double | time ins seconds to start the playback |
+| subtitle | String? | the initial subtitle to show. Can be null or turned on/off later |
 
 ## Using picture-in-picture in player view
 
@@ -158,77 +172,7 @@ SpallaFullScreenPlayerActivity
    .show(this)
 ```
 
-## Customization
 
-It is possible to customize the player's colors through a .css file in the assets folder.
-
-In this example the style.css file contains:
-
-```
-.theo-primary-color, .vjs-selected {
- color: #cc0000 !important;
-}
-
-.theo-primary-background {
- color: #000000 !important;
- background-color: #cc0000 !important;
-}
-
-.theo-secondary-color {
- color: #ffffff !important;
-}
-
-.theo-secondary-background {
- color: #000000 !important;
- background-color: #ffffff !important;
-}
-
-.theo-tertiary-color {
- color: #000000 !important;
-}
-
-.theo-tertiary-background {
- color: #ffffff !important;
- background-color: #000000 !important;
-}
-```
-
-The color relationship follows the table below:
-| Color | Affected |
-| --- | --- |
-| Primary color | Big play button, play progress on seek bar |
-| Primary background | Menu header background |
-| Secondary color | Control bar icons, time display |
-| Secondary background | Close button social sharing |
-| Tertiary color | Control bar background |
-| Tertiary background | Menu content background |
-
-## Add player customization
-
-SpallaPlayerView: add the cssStyle attribute value.
-
-```
-<com.spalla.sdk.android.core.player.view.SpallaPlayerView
-   android:id="@+id/spallaPlayerView"
-   android:layout_width="match_parent"
-   android:layout_height="300dp"
-   app:cssStyle="style.css"/>
-```
-
-SpallaFullScreenPlayerActivity.Builder: add the cssStyle method.
-
-```
-SpallaFullScreenPlayerActivity
-   .Builder(
-       contentId = spallaContentId,
-       isLiveContent = isLiveContent,
-       autoPlay = autoPlay
-   )
-   .cssStyle("style.css")
-   .build()
-   .show(this)
- ```
- 
 ### Back button icon
 
 Add the SpallaFullScreenPlayerActivity.Builder.backButtonDrawable method to change the back button image.
@@ -276,14 +220,16 @@ Type: public final class.
 A media player interface defining high-level functionality, such as the ability to play, pause, seek and query properties of the currently playing media.
 
 ##### Constructor
-SpallaPlayerView(context: Context, attrs: AttributeSet?, defStyleAttr: Int, cssStyle: String?, isFullScreen: Boolean, isFullScreenOrientationCoupled: Boolean)
+SpallaPlayerView(context: Context, attrs: AttributeSet?, thumbColorResId: Int? = null, activeTrackColorResId: Int? = null, inactiveTrackColorResId: Int? = null, isFullScreen: Boolean = false, isFullScreenOrientationCoupled: Boolean = true)
 
 | Parameters | Description | Default value |
 | --- | --- | --- |
 | context | Android context. | - |
 | attrs | An optional AttributeSet instance. | null |
 | defStyleAttr |  An optional style. | null |
-| cssStyle | An optional player style. | null |
+| thumbColorResId | Color for the track thumb | null |
+| activeTrackColorResId | Color for the active progress track | null |
+| inactiveTrackColorResId | Color for the inactive progress track | null |
 | isFullScreen | Whether the player is in fullscreen mode or not. | false |
 | isFullScreenOrientationCoupled | Whether the orientation of the device and the fullscreen state are coupled. When this option is set to true, the player will go fullscreen when the device is rotated to landscape and will also exit fullscreen when the device is rotated back to portrait. Note that this has no relation to the orientation in which the player will be in fullscreen. | true |
 
@@ -297,12 +243,13 @@ SpallaPlayerView(context: Context, attrs: AttributeSet?, defStyleAttr: Int, cssS
 | void | onPause() | Pauses the SpallaPlayerView. |
 | void | onDestroy() | Destroys the SpallaPlayerView. |
 | Boolean | isDestroyed() | Returns whether onDestroy has been called. |
-| void | load(id: String, isLiveContent: Boolean, autoPlay: Boolean) | Prepares the SpallaPlayerView. |
+| void | load(id: String, isLiveContent: Boolean, autoPlay: Boolean, startTime: Double, subtitle: String?) | Prepares the SpallaPlayerView. |
 | void | play() | Starts or resumes playback. |
 | void | pause() | Pauses playback. |
 | void | stop() | Stops playback. |
 | Double | getDuration() | Returns the duration of the media, in seconds. |
 | Double | getCurrentTime() | Returns the current playback position of the media, in seconds. |
+| void | selectSubtitle(subtitle: String?) | enables or disables subtitles (if null) |
 | Boolean | enterPictureInPictureMode(activity: Activity) | Returns whether picture-in-picture has been entered successfully. |
 | void | onPictureInPictureModeChanged(activity: Activity, isInPictureInPictureMode: Boolean) | Notifies the SpallaPlayerView about picture-in-picture changes. |
 
@@ -451,6 +398,34 @@ SpallaPlayerEvent.TimeUpdate(currentTime: Double)
 | Parameters | Description |
 | --- | --- |
 | currentTime | The player's current time in seconds. |
+
+### SpallaPlayerEvent.SubtitlesAvailable
+
+Type: public final class.
+
+Fired when subtitle list is available. Returns a list of strings like ["pt-BR", "en"]
+
+##### Constructor
+
+SpallaPlayerEvent.SubtitlesAvailable(subtitles: List<String>)
+
+| Parameters | Description |
+| --- | --- |
+| subtitles | List of available subtitles for the content |
+
+### SpallaPlayerEvent.SubtitleSelected
+
+Type: public final class.
+
+Fired when a subtitle is selected either via selectSubtitle or using the default UI
+
+##### Constructor
+
+SpallaPlayerEvent.SubtitleSelected(subtitle: String?)
+
+| Parameters | Description |
+| --- | --- |
+| subtitle | Selected subtitle |
 
 ### SpallaPlayerEvent.Error
 
