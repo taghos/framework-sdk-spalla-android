@@ -9,12 +9,12 @@ The SDK offers the following features:
 
 ## Getting started on Spalla SDK Android
 
-The current version of the Spalla SDK for Android is 1.7.0, which requires the Android 23 API.
+The current version of the Spalla SDK for Android is 1.8.1, which requires the Android 23 API.
 
 Just add to your `app/build.gradle`:
 
 ```
-   implementation("stream.spalla:spalla-android-sdk:1.7.0")
+   implementation("stream.spalla:spalla-android-sdk:1.8.1")
 ```
 
 Spalla depends on THEOPlayer for Playback, so please add the `https://maven.theoplayer.com/releases` repo to the list
@@ -250,6 +250,7 @@ SpallaPlayerView(context: Context, attrs: AttributeSet?, thumbColorResId: Int? =
 | Double | getDuration() | Returns the duration of the media, in seconds. |
 | Double | getCurrentTime() | Returns the current playback position of the media, in seconds. |
 | void | selectSubtitle(subtitle: String?) | enables or disables subtitles (if null) |
+| void | selectPlaybackRate(subtitle: String?) | set playback rate. Values should be 0.5, 1.0, 1.5 or 2.0 |
 | Boolean | enterPictureInPictureMode(activity: Activity) | Returns whether picture-in-picture has been entered successfully. |
 | void | onPictureInPictureModeChanged(activity: Activity, isInPictureInPictureMode: Boolean) | Notifies the SpallaPlayerView about picture-in-picture changes. |
 
