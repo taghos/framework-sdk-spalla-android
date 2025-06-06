@@ -9,9 +9,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>stream.spalla</groupId>
   <artifactId>spalla-android-sdk</artifactId>
-  <version>1.8.0</version>
+  <version>1.8.1</version>
   <packaging>aar</packaging>
-  <name>Spalla Android SDK</name>
+  <name>spalla-android-sdk</name>
   <description>Spalla SDK with Player and Analytics</description>
   <url>https://spalla.stream</url>
   <licenses>
