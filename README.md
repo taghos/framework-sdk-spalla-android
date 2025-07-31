@@ -9,12 +9,12 @@ The SDK offers the following features:
 
 ## Getting started on Spalla SDK Android
 
-The current version of the Spalla SDK for Android is 1.8.1, which requires the Android 23 API.
+The current version of the Spalla SDK for Android is 1.9.0, which requires the Android 23 API.
 
 Just add to your `app/build.gradle`:
 
 ```
-   implementation("stream.spalla:spalla-android-sdk:1.8.1")
+   implementation("stream.spalla:spalla-android-sdk:1.9.0")
 ```
 
 Spalla depends on THEOPlayer for Playback, so please add the `https://maven.theoplayer.com/releases` repo to the list
