@@ -9,23 +9,23 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>stream.spalla</groupId>
   <artifactId>spalla-android-sdk</artifactId>
-  <version>1.9.1</version>
+  <version>1.9.4</version>
   <packaging>aar</packaging>
   <name>spalla-android-sdk</name>
   <description>Spalla SDK with Player and Analytics</description>
   <url>https://spalla.stream</url>
   <licenses>
     <license>
-        <name>MIT License</name>
-        <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
     </license>
   </licenses>
   <developers>
     <developer>
-        <name>Rogerio Shimizu</name>
-        <email>roja@bunker79.com</email>
-        <organization>BUNKER79</organization>
-        <organizationUrl>http://www.bunker79.com</organizationUrl>
+      <name>Rogerio Shimizu</name>
+      <email>roja@bunker79.com</email>
+      <organization>BUNKER79</organization>
+      <organizationUrl>http://www.bunker79.com</organizationUrl>
     </developer>
   </developers>
   <scm>
@@ -38,7 +38,7 @@
       <dependency>
         <groupId>androidx.compose</groupId>
         <artifactId>compose-bom</artifactId>
-        <version>2025.07.00</version>
+        <version>2024.10.01</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -48,25 +48,25 @@
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>viewbinding</artifactId>
-      <version>8.11.1</version>
+      <version>8.7.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib</artifactId>
-      <version>2.2.0</version>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.9.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.16.0</version>
+      <version>1.13.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
-      <version>1.7.1</version>
+      <version>1.7.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -78,7 +78,7 @@
     <dependency>
       <groupId>androidx.constraintlayout</groupId>
       <artifactId>constraintlayout</artifactId>
-      <version>2.2.1</version>
+      <version>2.1.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -92,21 +92,26 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>com.theoplayer.theoplayer-sdk-android</groupId>
       <artifactId>core</artifactId>
-      <version>9.8.2</version>
+      <version>8.10.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.theoplayer.theoplayer-sdk-android</groupId>
       <artifactId>integration-cast</artifactId>
-      <version>9.5.1</version>
+      <version>8.10.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-cast-framework</artifactId>
-      <version>22.1.0</version>
+      <version>21.3.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
