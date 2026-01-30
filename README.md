@@ -9,12 +9,12 @@ The SDK offers the following features:
 
 ## Getting started on Spalla SDK Android
 
-The current version of the Spalla SDK for Android is 1.9.4, which requires the Android 23 API.
+The current version of the Spalla SDK for Android is 1.11.1, which requires the Android 23 API, compile SDK 36+ and Kotlin 2.2.20+.
 
 Just add to your `app/build.gradle`:
 
 ```
-   implementation("stream.spalla:spalla-android-sdk:1.9.4")
+   implementation("stream.spalla:spalla-android-sdk:1.11.1")
 ```
 
 Spalla depends on THEOPlayer for Playback, so please add the `https://maven.theoplayer.com/releases` repo to the list
@@ -148,12 +148,6 @@ override fun onPictureInPictureModeChanged(
        this,
        isInPictureInPictureMode
    )
-   if (isInPictureInPictureMode) {
-       // Hide the full-screen UI (toolbar, etc.)
-       // while in PiP mode.
-   } else {
-       // Restore the full-screen UI.
-   }
 }
 ```
 
